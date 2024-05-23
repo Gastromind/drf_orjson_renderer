@@ -4,7 +4,6 @@ repos:
   hooks:
     - id: check-merge-conflict
     - id: debug-statements
-    - id: requirements-txt-fixer
 - repo: https://github.com/ambv/black
   rev: 22.10.0
   hooks:

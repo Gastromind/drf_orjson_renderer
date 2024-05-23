@@ -14,5 +14,5 @@ clean-pyc:
 	find . -name '__pycache__' -exec rm -fr {} +
 
 release: clean
-	python setup.py sdist bdist_wheel
+	python setup.py sdist
 	twine upload dist/*
